@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Viết Bài</title>
+</head>
+<body>
+    <h1>AI Viết Content Marketing</h1>
+    <form method="POST">
+        <input type="text" name="topic" placeholder="Nhập chủ đề bài viết..." required>
+        <button type="submit">Viết bài</button>
+    </form>
+    {% if content %}
+        <h2>Chủ đề: {{ topic }}</h2>
+        <p>{{ content }}</p>
+    {% endif %}
+</body>
+</html>
