@@ -1,2 +1,7 @@
-# my-ai-app
-á»¨ng dá»¥ng AI viáº¿t content
+"# AI Content Generator" 
+"?ng d?ng AI t?o n?i dung Marketing t? d?ng" 
+"" 
+"## C ch c…i d?t" 
+"```bash" 
+"pip install -r backend/requirements.txt" 
+"```" 
