@@ -1,1 +1,28 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Content Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI Content Generator</h1>
+    <form id="contentForm">
+        <label for="topic">Chủ đề:</label>
+        <input type="text" id="topic" name="topic" placeholder="Nhập chủ đề..." required>
+
+        <label for="file">Tải file dữ liệu (DOCX/CSV):</label>
+        <input type="file" id="file" name="file" accept=".docx,.csv">
+
+        <button type="submit">Tạo bài viết</button>
+    </form>
+
+    <div id="result">
+        <h2>Bài viết từ AI:</h2>
+        <textarea id="aiContent" rows="10" cols="50" placeholder="AI sẽ tạo bài viết ở đây..."></textarea>
+        <button id="saveBtn">Lưu chỉnh sửa</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
