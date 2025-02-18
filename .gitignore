@@ -1,1 +1,5 @@
-.env
+# Ch?n file nh?y c?m 
+.env 
+*.log 
+__pycache__/ 
+data/ 
